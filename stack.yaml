@@ -35,12 +35,16 @@ packages:
 # forks / in-progress versions pinned to a git hash. For example:
 #
 # extra-deps:
-# - git: https://github.com/ucsd-progsys/liquidhaskell.git
+# - git: https://github.com/ucsd-progsys/liquidhaskell
 #   commit: f8581f517877c7da17c30f058334b16f0e7a8214
 #   subdirs:
 #   - .
 #   - liquid-base
-#
+#   - liquid-prelude
+#   - liquid-ghc-prim
+#   - liquid-containers
+# - git: https://github.com/ucsd-progsys/liquid-fixpoint
+#   commit: 64f1edd5ee5d6d8f4cf93286a89a08d22ac0f4bf
 
 # Override default flag values for local packages and extra-deps
 # flags: {}

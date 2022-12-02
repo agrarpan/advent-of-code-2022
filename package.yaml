@@ -29,6 +29,8 @@ dependencies:
 - text
 - mtl
 - vector
+# - liquidhaskell
+# - liquid-base
 
 library:
   source-dirs: src
